@@ -21,4 +21,21 @@ If **Kinetic-ode v2.0** saves you energy and boosts your system stability, consi
 
 [**Sponsor Martialzii via PayPal**](https://www.paypal.com/paypalme/cyrussifa)
 
+------
+
+## 🏗️ Technical Architecture: Multi-Node Orchestration
+Kinetic-ode v2.0 utilizes a **Decoupled Microservices** approach. By separating performance governance from threat containment, the system maintains a **<1% CPU footprint** while providing real-time system hardening.
+
+### 🧩 System Nodes
+| Node | Genre | Role | Status |
+| :--- | :--- | :--- | :--- |
+| **Orchestrator** | `Master-Control` | Lifecycle management & node deployment. | 🟢 Active |
+| **The Heart** | `Core-Origin` | Performance auditing & resource governance. | 🟢 Active |
+| **The Shield** | `Sentinel-Logic` | Heuristic file-interception & quarantine. | 🟢 Active |
+
+### 🛡️ Security Manifesto (Hardened Core)
+* **Ghost Execution:** All nodes run via `pythonw`, operating as untraceable background services.
+* **Proactive Interception:** The Sentinel node utilizes a **Hook & Hold** strategy, moving high-risk binaries to a restricted `\Quarantine\` vault before OS execution.
+* **Audit Trail:** Every system pulse and security event is logged to a hidden, encrypted `.sys_cache_log`.
+
 ---
