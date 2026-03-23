@@ -8,3 +8,17 @@ Kinetic-ode is a performance-tracking framework designed to bridge the gap betwe
 * **The License:** [MIT](./LICENSE) (Open for collaboration and professional integration).
 
 ---
+---
+
+## 💎 Support the Project: Premium Growth
+If **Kinetic-ode v2.0** saves you energy and boosts your system stability, consider supporting the next phase of development. Your sponsorship directly funds the **AI Forecasting** and **Dynamic Scaling** modules.
+
+| Tier | Name | Reward |
+| :--- | :--- | :--- |
+| **$5** | **The Early Adopter** | 🚀 Early access to the AI Forecasting Beta module. |
+| **$15** | **The Efficient Pro** | 🛠️ Custom system-specific configuration guide + AI Beta. |
+| **$50** | **The Strategic Partner** | 🤝 Your name/logo on the Dashboard + Priority Feature Requests. |
+
+[**Sponsor Martialzii via PayPal**](https://www.paypal.com/paypalme/cyrussifa)
+
+---
