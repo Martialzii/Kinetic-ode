@@ -1,11 +1,17 @@
 import psutil
 import time
 import os
-
+def maintenance_check(log_file):
+    # If log exceeds 5MB (5 * 1024 * 1024 bytes), reset it
+    if os.path.exists(log_file) and os.path.getsize(log_file) > 5242880:
+        with open(log_file, "w") as f:
+            f.write(f"--- LOG RESET: {time.strftime('%Y-%m-%d %H:%M:%S')} ---\n")
 # --- PARENT MANIFESTO: READ-ONLY RULES ---
 # 1. System must remain below 80% CPU.
 # 2. Log must be hidden.
 # 3. Process must remain "Low Key" (No UI).
+# ... inside the while True loop ...
+        maintenance_check(".sys_cache_log")
 
 def run_suppressed_engine():
     # Create the Identity Card (PID)
